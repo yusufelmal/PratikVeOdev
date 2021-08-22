@@ -1,0 +1,27 @@
+DUMAN VE MANTIKLILIK TESTLERİ
+
+DUMAN SMOKE-
+
+bir programın detaylara girmeden çalışması krtik fonksiyonları kontrolü demek
+
+kullanışlı ve maliyeti düşük Itde yaygın
+
+basit bir kontrol listesi yapılır. basitçe kontrol edilir. geçemezse başarısız diye göndeririz. 
+
+%100 hatasızlığı kontrol edilmez.
+
+daha önce oluşan bi hata çözüldü mü ona bakılır ya da yeni versiyonda önemli bir kalem çalışıyor muya bakılır.
+
+MANTIKLILIK* SANİTY TEST
+
+uygulamanın düzeltildikten sonra değişen kodu çalışıyor mu kısmı test edilir.
+
+bu başarılı değilse daha fazla test etmeden redde gönderilir. 
+
+farklar
+1. DUMAN Tüm uygulamada-mantıklılık sadece düzelen yerde
+2. duman yazılımcı ve test uzmanı tarafından. mantıklılık test uzmanı tarafından
+3. duman erken safhalarda da olur. mantıklılık son aşamalar ve hata beklenmiyor.
+
+bu ikisi en kullanışlı test teknikleridir 
+

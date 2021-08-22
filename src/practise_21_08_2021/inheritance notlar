@@ -1,0 +1,7 @@
+inheritance
+
+bir classtan veri çekmenin iki yolu var, 1. o klastan obje üretip çekerim. 2. inheritance yaparım
+
+inheritance ın birinci olayı
+1. obje üretmeden childda parentin variable larını kullanabiliyorum.
+

@@ -1,0 +1,30 @@
+birim testleri
+
+yazılım başlayınca ilk koşulan testler
+yazılım istenildiği gibi olmuş mu? ufak bir modülünü test eder. belirgin hataları seçer. yazılımcı kodlar. 
+
+entegrasyon testleri
+
+birimler ve sistemler arası testler. birimde sadece bir fonskiyon, ama entegrasyon, etkileşimi test eder. fonksiyonu değil. 
+erken safhada arayüzlerde hata var mı diye bakar. yazılımcı yazar
+
+otomatize kullanıcı arayüz testleri
+
+ön yüz düzgün çaışıyor mu?
+ön yüz sürekli değiştiği için maliyetli. mümkünse birim ve entegrasyon aşamasında sorunlar görülmeli. bu aşamaya kalmamalı
+kullanıcı adımları oluşturulur ve bunlar tekrarlanır
+
+sistem ve kabul testi
+biz bu kursla sistem testlerine odaklanıyoruz. 
+bir bütün olarak sistemin kalitesine dair bir güven oluşturulması
+hatalı olan her şeyi kontrol eder.
+canlıda sistemin doğru şekilde çalışmaması gibi hatalar buradan anlaşılır.
+
+kabul testi kısmı ise sistemin beklendiği gibi çalışacağının sağlaması yapılır.
+
+TEST PİRAMİDİ
+
+en altta otomated unit test. ilk olarak bunlar oluşturulur. en çok burada hata ayaklanır. arayüzdeki hataları çok daha rahat yakalar bunlar.
+entegrasyon ve birim testleri en çok olmalı
+
+

@@ -1,0 +1,19 @@
+NEGATİF TESTLER
+
+bileşen ya da sistemin çalışmayan yerlerini gösterir
+
+sayı girilecek alan.
+test ederken kabul edilmeyen rakam ve karakterler girilir
+pozitif tam sayısı gereken alana:
+a gir
+-1000 gir
+
+2 ana strateji--pozitif ve negatif.
+
+pozitif*uygulama çalışıyor mu
+negatif*uygulamaya farklı değer gir
+
+örnekler
+a. veri girişi alanlarına farklı değer ya da değer girmeme şeklinde dvam etme
+b. veri alanının max değerlerini aş
+

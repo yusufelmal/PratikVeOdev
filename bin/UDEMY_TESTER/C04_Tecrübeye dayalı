@@ -1,0 +1,36 @@
+Tecrübeye dayalı test teknikleri
+
+hata tahminleme-error guessing
+keşif testi-explaratory testing
+kontrol listesine dayalı testler-checklist testing
+
+toplam 3 tane yukarda
+
+ekibin konu hakkında bilgisi iyiyse bu teknikler kullanılabilir.
+
+1. HATA TAHMİNLEME
+test uzmanının bilgisine dayalı olarak yapılır.
+uygulama geçmişte nasıl çalışıyor.
+yazılımcıların sıklıkla yaptığı hatalara bakılır
+
+2. KEŞİF TESTİ
+
+gayri resmi testler tasarlanır.
+daha fazla yaratıcılık alanı bırakılır
+test uzamnı kendince takılır
+
+çok az da olsa bu testler dökümante edilmeli
+
+test edilecek alanlar
+test için harcanacak süre
+testin amacı gibi şeyler rapora yazılmalı
+
+bu test gereksinimler az ve yetersiz olduğunda, veya testler üzerinde zaman baskısı olunca kullanılır. 
+
+3. KONTROL LİSTESİNE DAYALI TESTLER
+
+checkliste bakarak koşulur.
+ister checklisti günceller ister direk kullanır.
+
+fonksiyonel ya da olmayan tesler için bu kullanılabilir. 
+

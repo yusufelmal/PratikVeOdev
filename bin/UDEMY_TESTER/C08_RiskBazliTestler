@@ -1,0 +1,27 @@
+RİSK BAZLI TESTLER
+
+bunlar test senaryolarımızı önceliklendirir
+
+ilerde olumsuz olabilecek bir olayın gerçekleşme olasılığını da içerir
+
+ürün risk örneği
+
+yazılım amaçlanan fonksiyonları yerine getirmeyebilir
+
+
+proje risk örnekleri
+
+parasal kaynaklar yetersiz olabilir
+gereksinimler iyi tanımlanmamış olabilir
+
+
+YAZILIM TESTLERİNDE RİSK
+
+defekt ya da bug var mı
+
+risk=etkixolma olasılığı
+
+etkisi yüksek ve olma olasılığı yüksekse hemen çözülmeli
+
+bu firmadan firmaya değişir. değerlendirme öznel yapılmalı
+

@@ -1,0 +1,17 @@
+STATİK TESTLER
+
+manuel incelenme
+gözden geçirme
+araç kullanarak değerlendirme
+
+statik testler erken safhalarda kullanılırsa erken safhada tesbitler oluşur.
+
+statik ve dinamik testlerin hedefleri aynı olabilir. 
+hataların oluşturduğu arızalardan ziyade, statik testler daha öncül olan hataların kendisini bulmaya yarar
+
+statik testler daha az eforla bulabilir hatayı
+
+statik testler çalışma ürünlerinin tutarlılığını ve iç kalitesini iyileştirmek için kullanılır. 
+dinamikler daha çok dışardan görülen davranışlara odaklanır
+
+statik testlerde gözden geçirme boeing gibi firmalarda daha belirgin ve detaylı kullanılıyor. resmi olarak adımları ve mercileri var.

@@ -1,0 +1,33 @@
+kara kutu black box testi
+
+test uzmanı kodun arka planda nasıl çalıştığını bilmez. sadece beklenen sonuca uyuyor mu diye tester bir sistem testi yapar.
+
+gerçek kullanıcı uygulamayı kullanırken ne yaşar bunu test eder.
+
+1. fonksiyonel testler
+iç mimariye bakmazsın, işlevselliğe bakarsın.
+nasıl çalışıyor?
+duman, regresyon testi gibi testleri kapsar.
+
+
+2. fonksiyonel olmayan testler
+bunlarda da sürdürülebilirlik, taşınabilirlik, aynı anda kaç kullanıcıyı kaldırır gibi sorular bu tip testlerdir.
+nasıl response verir?
+yük testi, performans testi, güvenlik testi gibilerini kapsar.
+
+
+her iki test de sistem testidir.
+ 
+beyaz kutu-white box testleri
+uygulamanın nasıl çalıştığı ve kod yapısı tester tarafından bilinir. 
+ 
+kara kutu testlerinin detayına girilecek.
+
+kara kutu çeşitleri
+birim
+komut kapsamı
+dal kapsamı
+yol kapsamı
+
+beyaz kutu teknikleri daha çok teknik test mühendisleri tarafından yapılıyor.-ne demek istedi?-
+

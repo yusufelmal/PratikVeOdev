@@ -1,0 +1,69 @@
+kara kutu test tekniği
+
+denklik payları ayırma-equivalence partitioning
+sınır değer analizi-boundary value
+karar tablosu testleri
+durum geçiş testleri
+kullanım snaryosu testleri
+
+1. DENKLİK PAYLARINI AYIRMA
+
+girdi verilerini paylara, denklik sınıflarına ayırarak koşulan test adımlarını minimize eder.
+
+amaç koşualn test sayısını azaltmak
+
+geçerli denklik payı
+geçersiz denklik payı
+
+burada misal 1 ile 10 arası değerlerin tam sayı olarak girildiğinde geçerli olduğu bir user story var sayalaım.
+1den küçük 10dan büyük alan geçersiz deklik payı
+bu aralık ise geçerli denklik payı olur. böylece 3 denklik payı vardır. -2, 2 ve 12 girerek 3 denklik payı ile testi bitiririz. 
+
+2. SINIR DEĞER ANALİZİ
+
+en çok hata burada çıkar.
+bu sefer de -1,0,1 ile 9,10,11 test edilir. en sınır değerler.
+
+
+1 ile 9999 metre -4 basamaklı max-
+sınır değer analizine göre 0-1-2 ile 9998-9999-10000 metre girilir. 
+
+3. KARAR TABLOSU TESTİ
+
+girdiler ve çıktılar şeklinde
+önr banka
+-kullanıcı para transfer edecek
+a. kullanıcı artı bakiyeli olmalı
+b. kullanıcı aktif olmalı
+tablo çiziyirouz. evet ve hayır şeklinde koşullar var. 
+2 koşul ve 2 durum 4 farklı kombinasyon durumu oluşuyor. 
+bu şekilde dört senaryo olur. aktif ve artı bakiye ise para tr olur. geri kalan senaryolarda para tr gerçekleşmez. 
+
+2=2üzeri n
+örn 3 koşul varsa 2üzeri 3 toplam 8 senaryo var.
+
+örn bir bilet sitesi
+gidiş uçuşu seçilmeli-A
+kullanıcı yeterli puanı olmalı-B
+kredi kartında artı bakiye olmalı-C
+kullanıcı ödemeyi sadece mil ya da kart ile yapabilir. 1 ve 2 durumlar
+bu koşulları kaç test senaryosu ile kapsayabiliriz. karar tablosu oluşturunuz. 
+
+4. DURUM GEÇİŞİ TESTİ
+
+lamba açık kapalı ve hata durumu-toplam 3 durum
+çeşitli durumlardan biri: lamba açıkken tekrar açılırsa hatalı duruma gelir. 
+geçiş durumları açmadan kapamaya 1, kapamadan açmaya 2, hata tekrar açılırsa hata 3, açık tekrar açılırsa hata 4. toplam dört geçiş. 
+
+durum testinde diğer kavram--n adım testi--n switch testi
+bu teknik ile tüm geçerli n+1 geçişleri çalıştırmak için tasarlanır.
+
+0 adım örn açıktan kapalıya geçiştir. durumlar arası bir adet geçişi belirtir. 
+1 adımlar ise tek bir durum değil, 2 durum değişikliğini test ediyor. örn sistem kapalıdan açığa ve sonra tekrar kapalıya geçişi 2 durum değişikliği.
+
+5. KULLANIM SENARYOSU TESTLERİ
+
+bu teknik genelde çevik proje yönetiminde kullanılır. 
+bankaya kartı soktun. ne olursa ne oluru yazarsın. 
+
+

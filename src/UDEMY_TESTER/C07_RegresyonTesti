@@ -1,0 +1,16 @@
+REGRESYON TESTLERİ
+
+yazılım değişiklikleri diğer alanları etkiliyor mu ona bakarız.
+
+bir yeri dğeiştik, sonra sağlam yerler de bozuldu mu diye bakıyoruz.
+
+testerlar sürekli bakarlar
+
+yeni sürüm yayınlanmadan önce tüm kritik alanlar çalışıyor mu -hala-
+
+20-30 adımlık test adımları regresyon seti şeklinde oluşturulur ve bunlar koşulur.
+
+öncelikli tüm adımlar koşulmalı ve yüzde yüz başarılı gerçekleşmeli
+
+değişiklik sonrası tüm kalite kontrol edilmeli
+
